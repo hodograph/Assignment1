@@ -1,0 +1,40 @@
+a)
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 1013 bytes | 506.00 KiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/hodograph/Assignment1.git
+   36a8e55..23728bd  master -> master
+
+b)
+8
+git shortlog
+
+c)
+Wed Sep 27 16:03:55 2017 -0500
+git log .gitignore
+
+d)
+cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+e)
+Allows multiple people to work on different parts of a project at once without interfering with each other.
+Ensures that the master branch always has production ready code.
+
+f)
+git status tells you information about the current working directory
+git log tells you information about the committed project history
+
+g)
+git log weapon.h
+
+h)
+git log --grep=file
+
+i)
+1) inheritence allows objects to take on properties of existing objects.
+2) allows for randomly created objects to be defined at run time instead of compile time.
+3) encapsulation is where you make all variables private in a class and allow access to them through public get and set methods
