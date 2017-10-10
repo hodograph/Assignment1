@@ -8,6 +8,8 @@
 #include <string>
 #include <stdlib.h>
 #include "Weapon.h"
+#include <ctime>
+
 
 #ifndef CRAZYRANDOMSWORD_H
 #define CRAZYRANDOMSWORD_H
@@ -19,11 +21,15 @@
 class CrazyRandomSword : public Weapon {
 public:
 
-    CrazyRandomSword() : Weapon("Crazy Random Sword", rand()%91+10*1.0) {
+    CrazyRandomSword() : Weapon("Crazy Random Sword", randHit()) {
     }
     virtual ~CrazyRandomSword() {}; 
     virtual double hit(double armor);
-
+private:
+	double randHit(){
+		srand(time(NULL));
+		return rand()%91+10*1.0;
+	}
 };
 
 #endif /* CRAZYRANDOMSWORD_H */

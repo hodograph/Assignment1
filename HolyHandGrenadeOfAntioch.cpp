@@ -8,6 +8,7 @@
 #include "HolyHandGrenadeOfAntioch.h"
 
 double HolyHandGrenadeOfAntioch::hit(double armor) {
+	srand(time(NULL));
     int multiplier = rand()%3+1;
 	if(multiplier == 3)
 		multiplier = 5;
