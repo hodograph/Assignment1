@@ -23,7 +23,7 @@ WeaponFactory * WeaponFactory::getInstance() {
 }
 
 Weapon * WeaponFactory::getWeapon(std::string name) {
-	if (name.compare("random" == 0){
+	if (name.compare("random") == 0){
 		return new CrazyRandomSword();
 	}
 	
