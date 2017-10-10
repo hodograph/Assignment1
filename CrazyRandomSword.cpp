@@ -8,7 +8,7 @@
 #include "CrazyRandomSword.h"
 
 double CrazyRandomSword::hit(double armor) {
-    int ignored = rand()%(armor/2)
+    int ignored = rand()%int(armor/2);
 	double damage = hitPoints-armor+ignored;
     return damage;
 }
