@@ -38,3 +38,8 @@ i)
 1) inheritence allows objects to take on properties of existing objects.
 2) allows for randomly created objects to be defined at run time instead of compile time.
 3) encapsulation is where you make all variables private in a class and allow access to them through public get and set methods
+
+
+7)
+This project uses polymorphism because the specific weapon is declared at run time and not compile time. At compile time all we know is that there will be a weapon,
+but we do not know which weapon this will be.
