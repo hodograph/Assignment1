@@ -12,5 +12,7 @@ double HolyHandGrenadeOfAntioch::hit(double armor) {
 	if(multiplier == 3)
 		multiplier = 5;
 	double damage = hitPoints*multiplier-armor+ignored;
+	if(damage<0)
+		damage = 0;
     return damage;
 }
