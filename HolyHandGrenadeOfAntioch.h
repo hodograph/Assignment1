@@ -7,6 +7,7 @@
 
 #include <string>
 #include <stdlib.h>
+#include <ctime>
 #include "Weapon.h"
 
 #ifndef HOLYHANDGRENADEOFANTIOCH_H
